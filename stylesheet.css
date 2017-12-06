@@ -1,3 +1,8 @@
+
+h1, h2, p {
+  font-family: raleway;
+}
+
 .info {
   margin: auto;
       width: 50%;
