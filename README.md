@@ -5,3 +5,10 @@ I still can't figure out how to link the search with the openMRS site's search r
 <i>Responsive test is in progress</i>
 
 Icon via flaticon.com (I downloaded for free so they require a credit!)
+
+<b>Responsivity</b>
+Laptop ✔️
+Desktop ✔️
+Iphone ✖️
+Ipad ✖️
+Sumsung ✖️
