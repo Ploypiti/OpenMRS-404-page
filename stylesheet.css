@@ -3,6 +3,13 @@ h1, h2, p {
   font-family: raleway;
 }
 
+body {
+  background-image: url(404bg.png);
+  background-position: right;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .info {
   margin: auto;
       width: 50%;
