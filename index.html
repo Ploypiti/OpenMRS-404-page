@@ -21,11 +21,13 @@
         <h3>(Error 404 Page not found)</h3>
         </div>
           <div class="wrap">
-            <form method="get" class="searchform" action="http://openmrs.org/">
-   <div class="search">
-      <input type="text" class="searchTerm" onfocus="if (this.value == 'Search...') { this.value = ''; }" onblur="if ( this.value == '' ) { this.value = 'Search...';}" placeholder="Search for article, information, and more!">
-      <img type="submit" class="searchButton" src="search.png" value="Go" alt="Submit" title="Submit search"></center>
+              <div class="wrap">
+    <div class="search">
+    <form method="get" class="searchform" action="http://openmrs.org/">
+        <input type="text" class="searchTerm" placeholder="Search for page, information, and more!" name="s" value="Search..." onfocus="if (this.value == 'Search...') { this.value = ''; }" onblur="if ( this.value == '' ) { this.value = 'Search...';}">
+        <input type="image" src="search.png" class="searchButton" name="submit" value="Go">
     </form>
+    <div class="fix"></div>
    </div>
   </div>
     </body>
