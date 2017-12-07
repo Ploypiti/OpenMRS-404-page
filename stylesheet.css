@@ -10,11 +10,35 @@ body {
   background-repeat: no-repeat;
 }
 
-.info {
+div.info {
   margin: auto;
       width: 50%;
       padding: 25px;
       padding-top: 50px;
+
+}
+
+h1 {
+  font-family: 'raleway';
+  font-weight: 1400;
+  font-size: 2.5em;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: gray;
+}
+
+h2, p {
+  font-family: quicksand;
+}
+
+h3 {
+  font-family: 'quicksand light';
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-family: 'quicksand'
 }
 
 .searchTerm {
